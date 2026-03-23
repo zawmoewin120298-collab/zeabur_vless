@@ -1,0 +1,15 @@
+proxies:
+  - name: "Zeabur-VLESS"
+    type: vless
+    server: [Zeabur Server IP]
+    port: [Random Public Port]
+    uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.microsoft.com
+    reality-opts:
+      public-key: [Public Key]
+      short-id: "16"
+    client-fingerprint: chrome
